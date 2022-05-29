@@ -1,93 +1,140 @@
 /*Limpar formatações padrão*/
-*{
-    margin: 0;
-    padding: 0;
+* {
+	margin: 0;
+	padding: 0;
 }
-body{
-    font-size: 1em;
-    /*font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;*/
-    background: #e6e6e6;
+
+body {
+	font-size: 1em;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	background: #e6e6e6;
 }
 
 /*
-*** Layout ***
+**** Layout ****
 */
-
-#cabeçalho{
-    background: #F7B600;
-    padding: 15px;
-    text-align: center;    
+#area-cabecalho {
+	background-color: #f7b600;
+	padding: 15px;
+	text-align: center;
 }
-#logo, #menu{
-    padding: 10px;
-}
-#principal{
-    width: 920px; 
-    margin: 0 auto;
 
+#area-logo, #area-menu {
+	padding: 10px;
+}
+
+#area-principal {
+	width: 920px;
+	margin: 4px auto;
+	padding: 15px; 
+    border-radius: 6px;
+    background:  rgba(199, 212, 6, 0.384);   
+    /*background-image: url("/_img/fundo1.jpg");*/
+}
+
+#area-postagens {
+	width: 660px;
+	float: left;
+}
+
+#area-lateral {
+	width: 240px;
+	float: right;
     
 }
-#conteudos, #menu-lateral{
-    background: orange;
+
+.postagem{
+	padding: 20px;
+	margin-bottom: 20px;
+	background: white;
 }
-#conteudos{
-    width: 660px;
-    float: left;    
+
+.conteudo-lateral {
+	background: white;
+	padding: 10px;
+    border-radius: 6px;
+	margin-bottom: 20px;    
 }
-.post{
-    padding: 20px;
-    margin-bottom: 20px;
-    background: white;
+
+.postagem-lateral {
+	font-size: 0.8em;	
+	border-bottom: 1px dotted #CCC;
 }
-#menu-lateral{
-    width: 240;
-    float: right;  
-}
-#rodape{
-    clear: both;
-    text-align: center;
-    padding: 15px;
-    color: white;
-    background: #CCC;
+
+#rodape {
+	clear: both;
+	text-align: center;
+	padding: 15px;
+    border-radius: 6px;
+    color: crimson;
+    font: bold;
+	background: #f7b600;
 }
 
 /*
-*** Formatação do menu ***
+**** Formatação do menu ****
 */
-
-a{
-    text-decoration: none;
-    background: #4E4E4E;    
-    border-radius: 6px;
-   
+a {
+	text-decoration: none;   
+    
 }
 
-a:link, a:visited{
-    color: #FFF;    
-    padding: 4px 8px;
-    margin: 3px;
+a:link, a:visited {
+	color: #f7b600;
 }
 
-a:hover{
-    color: #F7B600;
-    background: white;
+a:hover {
+	text-decoration: underline;
+}
+
+#area-cabecalho a:link, #area-cabecalho a:visited {
+	color: white;
+	padding: 4px 8px;
+    background: #4e4e4e8f;
     border-radius: 6px;
+}
+
+#area-cabecalho a:hover {
+	color: #f7b600;
+	background: crimson;
+	text-decoration: none;
     transition: 0.3s ease;
-
-    
 }
 
 /*
-*** Formatações Geais ***
+**** Formatações em geral ****
 */
+h1 {
+	color: #4e4e4e;
+	font-size: 2.5em;
+}
 
-h1{
-    color: #4E4E4E;
-    font-size: 2.5em;
+h2 {
+	color: #f7b600;
+}
+
+h3 {
+	color: #565656;
+	background: #ffa6006e;
+    border-radius: 6px;
+	padding: 5px;
 }
 
 .branco{
-    color: white;
+	color: white;
 }
+
+.data-postagem {
+	font-size: 0.8em;
+    border-bottom: 1px solid cr;
+    padding: 5px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    display: block;
+}
+
+
+
+
 
 
