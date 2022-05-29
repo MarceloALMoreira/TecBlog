@@ -5,7 +5,7 @@
 }
 body{
     font-size: 1em;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    /*font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;*/
     background: #e6e6e6;
 }
 
@@ -21,6 +21,35 @@ body{
 #logo, #menu{
     padding: 10px;
 }
+#principal{
+    width: 920px; 
+    margin: 0 auto;
+
+    
+}
+#conteudos, #menu-lateral{
+    background: orange;
+}
+#conteudos{
+    width: 660px;
+    float: left;    
+}
+.post{
+    padding: 20px;
+    margin-bottom: 20px;
+    background: white;
+}
+#menu-lateral{
+    width: 240;
+    float: right;  
+}
+#rodape{
+    clear: both;
+    text-align: center;
+    padding: 15px;
+    color: white;
+    background: #CCC;
+}
 
 /*
 *** Formatação do menu ***
@@ -28,8 +57,7 @@ body{
 
 a{
     text-decoration: none;
-    background: #4E4E4E;
-    opacity: 2px;
+    background: #4E4E4E;    
     border-radius: 6px;
    
 }
